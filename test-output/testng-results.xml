@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="151" started-at="2021-06-07T19:15:12 IST" finished-at="2021-06-07T19:15:12 IST">
+  <suite name="Default suite" duration-ms="76" started-at="2021-06-08T15:53:15 IST" finished-at="2021-06-08T15:53:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="151" started-at="2021-06-07T19:15:12 IST" finished-at="2021-06-07T19:15:12 IST">
-      <class name="com.MyCompany.SeleniumAutomationTestingDemo.ChildClass">
-        <test-method status="PASS" signature="childTest()[pri:0, instance:com.MyCompany.SeleniumAutomationTestingDemo.ChildClass@527740a2]" name="childTest" duration-ms="36" started-at="2021-06-07T19:15:12 IST" finished-at="2021-06-07T19:15:12 IST">
+    <test name="Default test" duration-ms="76" started-at="2021-06-08T15:53:15 IST" finished-at="2021-06-08T15:53:15 IST">
+      <class name="com.MyCompany.SeleniumAutomationTestingDemo.PolyChild">
+        <test-method status="PASS" signature="testing()[pri:0, instance:com.MyCompany.SeleniumAutomationTestingDemo.PolyChild@13a5fe33]" name="testing" duration-ms="16" started-at="2021-06-08T15:53:15 IST" finished-at="2021-06-08T15:53:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- childTest -->
-      </class> <!-- com.MyCompany.SeleniumAutomationTestingDemo.ChildClass -->
+        </test-method> <!-- testing -->
+      </class> <!-- com.MyCompany.SeleniumAutomationTestingDemo.PolyChild -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

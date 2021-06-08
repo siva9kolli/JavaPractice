@@ -4,11 +4,6 @@ import org.testng.annotations.Test;
 
 public class UsingOfThisAndSuper extends UsingSuperKeyword{
 	
-//	public UsingOfThisAndSuper(String test) {
-//		super(test);
-//		// TODO Auto-generated constructor stub
-//	}
-
 	String test = "Appium";
 	AboutMainMethod aboutMainMethod;
 	

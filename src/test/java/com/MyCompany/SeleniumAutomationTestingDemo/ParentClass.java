@@ -2,8 +2,14 @@ package com.MyCompany.SeleniumAutomationTestingDemo;
 
 public class ParentClass {
 	
-	void parent(){
+	String test = "Automation";
+	
+	public void parent(){
 		System.out.println("Testing Inheritance Parent class");
 	}
-
+	
+	public static void parentStatic() {
+		System.out.println("Testing Inheritance Static mehtod");
+	}
+	
 }
