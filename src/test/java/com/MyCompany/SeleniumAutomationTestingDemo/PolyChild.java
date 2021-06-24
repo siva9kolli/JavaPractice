@@ -6,19 +6,19 @@ public class PolyChild extends PolyParent{
 	
 	@Test
 	public void testing() {
-		PolyParent polyChild = new PolyParent();
-		polyChild.sum(10, 20);
-		
+//		PolyParent polyparent = new PolyParent();
+//		polyparent.sum(10, 20);
+//		
 		sum(10, 20);
 		
-		sum(2, 2, 2);
+		//sum(2, 2, 2);
 		
 		
 	}
 	
 	public void sum(int a, int b) {
 		int c;
-		c = a+b+a+b;
+		c = a+b;
 		System.out.println("Sum value Child===== "  + c);
 	
 	}

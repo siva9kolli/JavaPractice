@@ -1,5 +1,7 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public interface TestInterface2 {
-	public void testB();
+public interface TInterface1 {
+
+public void testA();
+
 }

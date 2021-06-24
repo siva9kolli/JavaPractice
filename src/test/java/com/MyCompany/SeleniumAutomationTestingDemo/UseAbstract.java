@@ -1,6 +1,6 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public class UseAbstract extends TestAbstract{
+public class UseAbstract extends TAbstract{
 	
 	public void testA() {
 		System.out.println("Secret Code A");

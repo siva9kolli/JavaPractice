@@ -1,5 +1,5 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public class TestPolyChild {
-
+public interface TInterface2 {
+	public void testB();
 }

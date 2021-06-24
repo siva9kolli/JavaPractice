@@ -1,6 +1,6 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public class TestMultipleInheritance implements TestInterface{
+public class TMultipleInheritance implements TInterface{
 
 	@Override
 	public void testA() {

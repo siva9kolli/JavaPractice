@@ -1,6 +1,6 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public abstract class TestAbstract {
+public abstract class TAbstract {
 	
 	public abstract void testA();
 	

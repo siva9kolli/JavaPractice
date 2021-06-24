@@ -1,7 +1,7 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
 
-public class UseInterface implements TestInterface{
+public class UseInterface implements TInterface{
 
 	@Override
 	public void testX() {

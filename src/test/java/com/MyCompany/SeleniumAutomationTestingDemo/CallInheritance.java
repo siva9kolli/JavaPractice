@@ -1,9 +1,9 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public class CallInheritance {
+public class CallInheritance extends UseInterface{
 
 	public static void main(String[] args) {
-		TestInterface  testInheritance = new UseInterface();
+		TInterface  testInheritance = new CallInheritance();
 		testInheritance.testX();
 		testInheritance.testY();
 		testInheritance.testD();

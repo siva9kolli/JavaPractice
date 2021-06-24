@@ -1,6 +1,6 @@
 package com.MyCompany.SeleniumAutomationTestingDemo;
 
-public interface TestInterface extends TestInterface1, TestInterface2 {
+public interface TInterface extends TInterface1, TInterface2 {
 	
 	int i =8;
 	
