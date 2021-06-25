@@ -33,7 +33,7 @@ public class LoginTest {
 
 		//driver.findElement(By.xpath("//*[@class='alert alert-danger']/p")).getText().equals("There is 1 erro");
 		Assert.assertEquals(driver.findElement(By.xpath("//*[@class='alert alert-danger']/p")).getText(),
-				"There is 1 erro");
+				"There is 1 error");
 
 	}
 
