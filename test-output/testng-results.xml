@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18116" started-at="2021-06-25T11:07:43 IST" finished-at="2021-06-25T11:08:02 IST">
+  <suite name="Default suite" duration-ms="16840" started-at="2021-06-26T11:21:21 IST" finished-at="2021-06-26T11:21:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18116" started-at="2021-06-25T11:07:43 IST" finished-at="2021-06-25T11:08:02 IST">
-      <class name="com.MyCompany.SeleniumTests.DropDownHandle">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.DropDownHandle@c46bcd4]" name="startBrowser" is-config="true" duration-ms="8370" started-at="2021-06-25T11:07:43 IST" finished-at="2021-06-25T11:07:52 IST">
+    <test name="Default test" duration-ms="16840" started-at="2021-06-26T11:21:21 IST" finished-at="2021-06-26T11:21:38 IST">
+      <class name="com.MyCompany.SeleniumTests.ElementVerifivations">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.ElementVerifivations@c46bcd4]" name="startBrowser" is-config="true" duration-ms="9001" started-at="2021-06-26T11:21:21 IST" finished-at="2021-06-26T11:21:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.MyCompany.SeleniumTests.DropDownHandle@c46bcd4]" name="loginAsAdmin" duration-ms="9557" started-at="2021-06-25T11:07:52 IST" finished-at="2021-06-25T11:08:01 IST">
+        <test-method status="PASS" signature="verifyCheckboxes()[pri:0, instance:com.MyCompany.SeleniumTests.ElementVerifivations@c46bcd4]" name="verifyCheckboxes" duration-ms="7675" started-at="2021-06-26T11:21:30 IST" finished-at="2021-06-26T11:21:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAsAdmin -->
-        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.DropDownHandle@c46bcd4]" name="quitSession" is-config="true" duration-ms="152" started-at="2021-06-25T11:08:01 IST" finished-at="2021-06-25T11:08:02 IST">
+        </test-method> <!-- verifyCheckboxes -->
+        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.ElementVerifivations@c46bcd4]" name="quitSession" is-config="true" duration-ms="121" started-at="2021-06-26T11:21:37 IST" finished-at="2021-06-26T11:21:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitSession -->
-      </class> <!-- com.MyCompany.SeleniumTests.DropDownHandle -->
+      </class> <!-- com.MyCompany.SeleniumTests.ElementVerifivations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
