@@ -24,11 +24,11 @@ public class ElementVerifivations {
 		driver = new ChromeDriver();
 	}
 
-	//@Test
+	@Test
 	public void loginAsAdmin() throws InterruptedException {
 
-		driver.get("https://www.salesforce.com/in/form/signup/freetrial-sales/?d=topnav2-btn-ft");
-		Thread.sleep(5000);
+		driver.navigate().to("https://www.salesforce.com/in/form/signup/freetrial-sales/?d=topnav2-btn-ft");
+		
 		
 		WebElement logo = driver.findElement(By.cssSelector("img[alt='Salesforce']"));
 		
@@ -49,7 +49,7 @@ public class ElementVerifivations {
 	}
 	
 	
-	@Test
+	//@Test
 	public void verifyCheckboxes() {
 		driver.navigate().to("http://the-internet.herokuapp.com/checkboxes");
 		

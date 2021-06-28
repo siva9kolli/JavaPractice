@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyCompany.SeleniumAutomationTestingDemo.DropDown">
+      <class name="com.MyCompany.SeleniumTests.SeleniumWaits">
         <methods>
           <include name="quitSession"/>
-          <include name="loginAsAdmin"/>
+          <include name="expilcitWaits"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- com.MyCompany.SeleniumAutomationTestingDemo.DropDown -->
+      </class> <!-- com.MyCompany.SeleniumTests.SeleniumWaits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
