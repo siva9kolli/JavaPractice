@@ -6,7 +6,7 @@
       <class name="com.MyCompany.SeleniumTests.SeleniumWaits">
         <methods>
           <include name="quitSession"/>
-          <include name="expilcitWaits"/>
+          <include name="fluentWaitTest"/>
           <include name="startBrowser"/>
         </methods>
       </class> <!-- com.MyCompany.SeleniumTests.SeleniumWaits -->
