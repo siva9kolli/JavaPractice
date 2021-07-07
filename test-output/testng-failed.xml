@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyCompany.SeleniumTests.SeleniumWaits">
+      <class name="com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows">
         <methods>
+          <include name="loginAsAdmin"/>
           <include name="quitSession"/>
-          <include name="fluentWaitTest"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- com.MyCompany.SeleniumTests.SeleniumWaits -->
+      </class> <!-- com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
