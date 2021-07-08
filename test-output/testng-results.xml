@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18072" started-at="2021-07-07T11:16:51 IST" finished-at="2021-07-07T11:17:09 IST">
+  <suite name="Default suite" duration-ms="43" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18072" started-at="2021-07-07T11:16:51 IST" finished-at="2021-07-07T11:17:09 IST">
-      <class name="com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows@23faf8f2]" name="startBrowser" is-config="true" duration-ms="3382" started-at="2021-07-07T11:16:51 IST" finished-at="2021-07-07T11:16:55 IST">
+    <test name="Default test" duration-ms="43" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+      <class name="com.MyCompany.TestNGTests.TestNGAnatations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="beforeSuite" is-config="true" duration-ms="19" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows@23faf8f2]" name="loginAsAdmin" duration-ms="14338" started-at="2021-07-07T11:16:55 IST" finished-at="2021-07-07T11:17:09 IST">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAsAdmin -->
-        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows@23faf8f2]" name="quitSession" is-config="true" duration-ms="290" started-at="2021-07-07T11:17:09 IST" finished-at="2021-07-07T11:17:09 IST">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitSession -->
-      </class> <!-- com.MyCompany.SeleniumTests.HandleMultipleTabsOrWindows -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="test1" duration-ms="5" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="test2" duration-ms="1" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-07-08T11:06:43 IST" finished-at="2021-07-08T11:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.MyCompany.TestNGTests.TestNGAnatations@d44fc21]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-07-08T11:06:48 IST" finished-at="2021-07-08T11:06:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.MyCompany.TestNGTests.TestNGAnatations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -44,13 +44,13 @@ public class HandleMultipleTabsOrWindows {
 		driver.findElement(By.name("UserFirstName")).sendKeys("Testing");
 		driver.close();
 		
-		//driver.switchTo().window(parentWindowId);
+		driver.switchTo().window(parentWindowId);
 		
-		Set<String> numberOfWindows1 = driver.getWindowHandles();
-		System.out.println("numberOfWindows1 === " + numberOfWindows1);
-		for(String window: numberOfWindows1) {
-			driver.switchTo().window(window);
-		}
+//		Set<String> numberOfWindows1 = driver.getWindowHandles();
+//		System.out.println("numberOfWindows1 === " + numberOfWindows1);
+//		for(String window: numberOfWindows1) {
+//			driver.switchTo().window(window);
+//		}
 		contactUsLink.click();
 		
 		System.out.println("Test");
