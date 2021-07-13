@@ -1,31 +1,34 @@
 package com.MyCompany.SeleniumTests;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserLanuch {
 	public WebDriver driver;
-	String browser = "firefox";
+	String browser = "chrome";
 
-	@Test
+	@BeforeSuite
 	public void launchBrowser() {
-		switch(browser) {
+		switch (browser) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			// System.setProperty("webdriver.chrome.driver",
-			// "/Users/sivareddyk/Downloads/chromedriver_a");
 			driver = new ChromeDriver();
-			driver.get("https://parabank.parasoft.com/");
+			driver.get("http://the-internet.herokuapp.com/");
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
-			// System.setProperty("webdriver.chrome.driver",
-			// "/Users/sivareddyk/Downloads/chromedriver_a");
 			driver = new FirefoxDriver();
 			driver.get("https://parabank.parasoft.com/");
 			break;
@@ -34,8 +37,29 @@ public class BrowserLanuch {
 			driver.get("https://parabank.parasoft.com/");
 			break;
 		}
-		
-		
+
+	}
+
+	@AfterSuite
+	public void killSession() {
+		driver.quit();
+	}
+
+	@AfterTest
+	public void ifTestFailsThenTakeScreenshot() throws IOException {
+		// ITestResult result
+//		System.out.println("ITestResult.FAILURE ===== " + ITestResult.FAILURE);
+//		System.out.println("result.getStatus() ====== " + result.getStatus());
+
+		// if(ITestResult.FAILURE == result.getStatus()) {
+
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File screenshotFile = ts.getScreenshotAs(OutputType.FILE);
+		String baseDirectory = System.getProperty("user.dir");
+		System.out.println("baseDirectory Path === " + baseDirectory);
+		File destinationFile = new File(baseDirectory + "/screenshot/failTest.png");
+		FileUtils.copyFile(screenshotFile, destinationFile);
+
 	}
 
 }

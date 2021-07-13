@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -29,7 +31,7 @@ public class HandleAlerts {
 	}
 	
 
-	@Test
+	//@Test
 	public void loginAsAdmin() {
 
 		driver.get("http://the-internet.herokuapp.com/javascript_alerts");
@@ -48,7 +50,7 @@ public class HandleAlerts {
 	}
 	
 	
-	@Test(dependsOnMethods = "loginAsAdmin")
+	//@Test(dependsOnMethods = "loginAsAdmin")
 	public void jsConfimationTest() {
 		WebElement jsConfirm = driver.findElement(By.cssSelector("button[onclick='jsConfirm()']"));
 		jsConfirm.click();
@@ -58,6 +60,27 @@ public class HandleAlerts {
 		String resultActual = result.getText();
 		
 		Assert.assertEquals(resultActual, "You clicked: Cancel");
+	}
+	
+	
+	@Test //(dependsOnMethods = "jsConfimationTest")
+	public void jsPromtTest() {
+		driver.get("http://the-internet.herokuapp.com/javascript_alerts");
+		
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebElement jsConfirm = driver.findElement(By.cssSelector("button[onclick='jsPrompt()']"));
+		jsConfirm.click();
+
+		wait.until(ExpectedConditions.alertIsPresent());
+		Alert alert = driver.switchTo().alert();
+		alert.sendKeys("Testing");
+		alert.accept();
+		
+	
+		WebElement result = driver.findElement(By.cssSelector("p#result"));
+		String resultActual = result.getText();
+		
+		Assert.assertEquals(resultActual, "You entered: Testing");
 	}
 
 	@AfterTest

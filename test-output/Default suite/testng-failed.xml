@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyCompany.SeleniumTests.HandleBasicAuthentication">
+      <class name="com.MyCompany.SeleniumTests.CaptureScreenShotWhenTestFails">
         <methods>
-          <include name="loginAsAdmin"/>
-          <include name="startBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="killSession"/>
+          <include name="getScreenshot"/>
+          <include name="ifTestFailsThenTakeScreenshot"/>
         </methods>
-      </class> <!-- com.MyCompany.SeleniumTests.HandleBasicAuthentication -->
+      </class> <!-- com.MyCompany.SeleniumTests.CaptureScreenShotWhenTestFails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
