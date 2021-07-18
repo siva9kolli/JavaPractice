@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyCompany.SeleniumTests.CaptureScreenShotWhenTestFails">
+      <class name="com.MyCompany.SeleniumTests.HandleNestedFrames">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="killSession"/>
-          <include name="getScreenshot"/>
-          <include name="ifTestFailsThenTakeScreenshot"/>
+          <include name="startBrowser"/>
+          <include name="switchToSingleiFrame"/>
+          <include name="quitSession"/>
         </methods>
-      </class> <!-- com.MyCompany.SeleniumTests.CaptureScreenShotWhenTestFails -->
+      </class> <!-- com.MyCompany.SeleniumTests.HandleNestedFrames -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
