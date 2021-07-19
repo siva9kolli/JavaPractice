@@ -32,7 +32,9 @@ public class HandleWithJavaScriptExecutor {
 		
 		WebElement signInLink = driver.findElement(By.cssSelector("a[title='Log in to your customer account']"));
 		
-		jse.executeScript("arguments[0].click()", signInLink);
+		//jse.executeScript("arguments[0].click()", signInLink);
+		jse.executeScript("document.querySelector('a[title='Log in to your customer account']').click();");
+		//jse.executeScript("document.querySelector('a[title='Log in to your customer account']').click()");
 		
 		WebElement passwordInputBox = driver.findElement(By.id("passwd"));
 		

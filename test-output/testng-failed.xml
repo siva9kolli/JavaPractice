@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyCompany.SeleniumTests.HandleNestedFrames">
+      <class name="com.MyCompany.SeleniumTests.VerifyMultipleElements">
         <methods>
           <include name="startBrowser"/>
-          <include name="switchToSingleiFrame"/>
+          <include name="loginAsAdmin"/>
           <include name="quitSession"/>
         </methods>
-      </class> <!-- com.MyCompany.SeleniumTests.HandleNestedFrames -->
+      </class> <!-- com.MyCompany.SeleniumTests.VerifyMultipleElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

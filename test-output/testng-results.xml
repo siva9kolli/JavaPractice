@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32782" started-at="2021-07-18T11:15:46 IST" finished-at="2021-07-18T11:16:19 IST">
+  <suite name="Default suite" duration-ms="9577" started-at="2021-07-19T10:51:02 IST" finished-at="2021-07-19T10:51:12 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32782" started-at="2021-07-18T11:15:46 IST" finished-at="2021-07-18T11:16:19 IST">
-      <class name="com.MyCompany.SeleniumTests.HandleWithJavaScriptExecutor">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.HandleWithJavaScriptExecutor@6025e1b6]" name="startBrowser" is-config="true" duration-ms="7494" started-at="2021-07-18T11:15:46 IST" finished-at="2021-07-18T11:15:53 IST">
+    <test name="Default test" duration-ms="9577" started-at="2021-07-19T10:51:02 IST" finished-at="2021-07-19T10:51:12 IST">
+      <class name="com.MyCompany.SeleniumTests.VerifyMultipleElements">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.VerifyMultipleElements@23faf8f2]" name="startBrowser" is-config="true" duration-ms="3376" started-at="2021-07-19T10:51:02 IST" finished-at="2021-07-19T10:51:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="switchToSingleiFrame()[pri:0, instance:com.MyCompany.SeleniumTests.HandleWithJavaScriptExecutor@6025e1b6]" name="switchToSingleiFrame" duration-ms="24841" started-at="2021-07-18T11:15:54 IST" finished-at="2021-07-18T11:16:18 IST">
+        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.MyCompany.SeleniumTests.VerifyMultipleElements@23faf8f2]" name="loginAsAdmin" duration-ms="5989" started-at="2021-07-19T10:51:06 IST" finished-at="2021-07-19T10:51:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- switchToSingleiFrame -->
-        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.HandleWithJavaScriptExecutor@6025e1b6]" name="quitSession" is-config="true" duration-ms="320" started-at="2021-07-18T11:16:18 IST" finished-at="2021-07-18T11:16:19 IST">
+        </test-method> <!-- loginAsAdmin -->
+        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.VerifyMultipleElements@23faf8f2]" name="quitSession" is-config="true" duration-ms="143" started-at="2021-07-19T10:51:12 IST" finished-at="2021-07-19T10:51:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitSession -->
-      </class> <!-- com.MyCompany.SeleniumTests.HandleWithJavaScriptExecutor -->
+      </class> <!-- com.MyCompany.SeleniumTests.VerifyMultipleElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
