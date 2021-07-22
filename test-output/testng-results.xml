@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9577" started-at="2021-07-19T10:51:02 IST" finished-at="2021-07-19T10:51:12 IST">
+  <suite name="Default suite" duration-ms="17567" started-at="2021-07-22T10:45:53 IST" finished-at="2021-07-22T10:46:10 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9577" started-at="2021-07-19T10:51:02 IST" finished-at="2021-07-19T10:51:12 IST">
-      <class name="com.MyCompany.SeleniumTests.VerifyMultipleElements">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.VerifyMultipleElements@23faf8f2]" name="startBrowser" is-config="true" duration-ms="3376" started-at="2021-07-19T10:51:02 IST" finished-at="2021-07-19T10:51:06 IST">
+    <test name="Default test" duration-ms="17567" started-at="2021-07-22T10:45:53 IST" finished-at="2021-07-22T10:46:10 IST">
+      <class name="com.MyCompany.SeleniumTests.ListOfItems">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.MyCompany.SeleniumTests.ListOfItems@4e7dc304]" name="startBrowser" is-config="true" duration-ms="8576" started-at="2021-07-22T10:45:53 IST" finished-at="2021-07-22T10:46:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.MyCompany.SeleniumTests.VerifyMultipleElements@23faf8f2]" name="loginAsAdmin" duration-ms="5989" started-at="2021-07-19T10:51:06 IST" finished-at="2021-07-19T10:51:12 IST">
+        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.MyCompany.SeleniumTests.ListOfItems@4e7dc304]" name="loginAsAdmin" duration-ms="8528" started-at="2021-07-22T10:46:01 IST" finished-at="2021-07-22T10:46:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsAdmin -->
-        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.VerifyMultipleElements@23faf8f2]" name="quitSession" is-config="true" duration-ms="143" started-at="2021-07-19T10:51:12 IST" finished-at="2021-07-19T10:51:12 IST">
+        <test-method status="PASS" signature="quitSession()[pri:0, instance:com.MyCompany.SeleniumTests.ListOfItems@4e7dc304]" name="quitSession" is-config="true" duration-ms="342" started-at="2021-07-22T10:46:10 IST" finished-at="2021-07-22T10:46:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitSession -->
-      </class> <!-- com.MyCompany.SeleniumTests.VerifyMultipleElements -->
+      </class> <!-- com.MyCompany.SeleniumTests.ListOfItems -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
